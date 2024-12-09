@@ -49,6 +49,7 @@ std::cout<<R"(
 
          std::string readme_md = repo_path + "/README.md",
          license = repo_path + "/LICENSE",
+         contributing = repo_path + "/CONTRIBUTING.md",
          changelogs_md = repo_path + "/CHANGELOGS.md",
          code_of_conduct_md = repo_path + "/CODE_OF_CONDUCT.md",
          security_md = repo_path + "/SECURITY.md",
@@ -63,6 +64,7 @@ std::cout<<R"(
          std::ofstream file_security_md(security_md);
          std::ofstream file_bug_report_md(bug_report_md);
          std::ofstream file_feature_request_md(feature_request_md);
+         std::ofstream file_contributing(contributing);
 
          //  adding content to files
          file_readme_md<<"# "<<repo_name<<"\nDescribe your project here\n";
@@ -72,6 +74,7 @@ std::cout<<R"(
          file_security_md<<SECURITY_MD;
          file_bug_report_md<<BUG_REPORT_MD;
          file_feature_request_md<<FEATURE_REQUEST_MD;
+         file_contributing<<CONTRIBUTING_MD;
       }
       else {
          std::cout<<"Invalid operation passed to Nautix Git , What is '"<<operation<<"'\n";
