@@ -1,20 +1,24 @@
----
-name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: ''
-assignees: ''
+# Feature Request
+
+Thank you for suggesting a new feature for **nautix-git**! Please use the template below to describe your idea in detail.
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+## Problem Description
+- **What problem does this feature aim to solve?**
+- **How does this problem affect you or others?**
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+## Proposed Solution
+- **Describe your proposed solution.** Be as detailed as possible.
+- **Why do you think this is the best approach?**
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+## Alternatives Considered
+- **What other solutions have you considered?**
+- **Why do you think they are less effective?**
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+## Additional Context
+Add any additional context, screenshots, or references to help explain the request.
+
+---
+
+Thank you for helping improve **nautix-git**!
